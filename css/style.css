@@ -73,6 +73,7 @@ body {
 
 .header-adress-list {
   list-style: none;
+  margin-bottom: 96px;
 }
 
 .header-adress-link {
@@ -89,6 +90,28 @@ body {
 
 /* interface */
 
+.first-btn {
+  min-width: 69px;
+}
+
+.second-btn {
+ border-color:1px solid #E7E9FC; 
+ min-width: 116px;
+}
+
+.third-btn{
+  border-color:1px solid #E7E9FC; 
+  min-width: 78px;
+}
+.fourth-btn {
+  border-color:1px solid #E7E9FC; 
+  min-width: 101px
+}
+.fifth-btn {
+  border-color:1px solid #E7E9FC;
+  min-width: 126px; 
+}
+
 .interface-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -97,6 +120,13 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
+  border: 1px solid transparent;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+  margin-top: 0;
+  margin-bottom: 0;
+ padding: 12px 24px;
 }
 
 .interface-button:hover,
@@ -106,19 +136,38 @@ body {
   cursor: pointer;
 }
 
+.interface-list {
+  margin-bottom: 72px;
+}
+
 .interface-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
+
 .interface-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.box-interface-first {
+  margin-bottom: 48px;
+}
+
+.box-interface-second {
+  margin-bottom: 48px;
+}
+
+.box-interface-third {
   margin-bottom: 120px;
 }
 
@@ -148,6 +197,7 @@ body {
 .box-footer {
   margin-top: 0;
   margin-bottom: 16px;
+  padding-top: 100px;
 }
 
 .footer-text {
@@ -268,13 +318,13 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
 }
 
 .team-line {
   background-color: var(--brand-color);
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 32px;
 }
 
 .team-text {
@@ -286,6 +336,9 @@ body {
   color: #434455;
   margin-top: 0;
   margin-bottom: 152px;
+  padding-bottom: 32px;
+  
+
 }
 
 :root {
