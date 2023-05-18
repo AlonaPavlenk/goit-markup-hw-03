@@ -73,6 +73,10 @@ body {
 
 .header-adress-list {
   list-style: none;
+  
+}
+
+.portfolio {
   margin-bottom: 96px;
 }
 
@@ -230,7 +234,7 @@ body {
   color: var(--brand-color);
   margin-top: 0;
   margin-bottom: 48px;
-  
+  padding-top: 188px;
 }
 
 .hero-button {
@@ -307,8 +311,9 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-top: 120px;
+  margin-top: 0;
   margin-bottom: 72px;
+  padding-top: 120px;
 }
 
 .image-title {
@@ -318,6 +323,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 0;
   margin-bottom: 8px;
 }
 
