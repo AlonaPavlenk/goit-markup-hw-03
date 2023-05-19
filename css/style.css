@@ -1,15 +1,15 @@
 html {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
-
-
 body {
   font-family: "Roboto", sans-serif;
-  background-color:#FFFFFF
+  background-color: #ffffff;
   color: #434455;
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 .link {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .list {
@@ -56,7 +56,7 @@ body {
 }
 
 .page-heder {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .conteiner {
@@ -65,32 +65,45 @@ body {
   padding-left: 24px;
   padding-right: 24px;
   width: 1176px;
-  
 }
 
 /* contacts */
 
+.header-navigation {
+  display: flex;
+  align-items: center;
+  max-width: 261px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .header-conteiner {
   display: flex;
   align-items: center;
+  padding: 24px 0;
+  border-bottom: 1px solid #e7e9fc;
 }
 
-.header-nav-adress {
-  display: flex;
-  margin-left: auto;
+.header-logo {
+  margin-right: 76px;
+  max-width: 115px;
 }
 
 .header-adress {
   font-style: normal;
+  margin-left: auto;
 }
 
 .header-adress-list {
   list-style: none;
-  
-}
-
-.portfolio {
-  margin-bottom: 96px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 344px;
 }
 
 .header-adress-link {
@@ -112,21 +125,21 @@ body {
 }
 
 .second-btn {
- border-color:1px solid #E7E9FC; 
- min-width: 116px;
+  border-color: 1px solid #e7e9fc;
+  min-width: 116px;
 }
 
-.third-btn{
-  border-color:1px solid #E7E9FC; 
+.third-btn {
+  border-color: 1px solid #e7e9fc;
   min-width: 78px;
 }
 .fourth-btn {
-  border-color:1px solid #E7E9FC; 
-  min-width: 101px
+  border-color: 1px solid #e7e9fc;
+  min-width: 101px;
 }
 .fifth-btn {
-  border-color:1px solid #E7E9FC;
-  min-width: 126px; 
+  border-color: 1px solid #e7e9fc;
+  min-width: 126px;
 }
 
 .interface-button {
@@ -143,7 +156,7 @@ body {
   border-radius: 4px;
   margin-top: 0;
   margin-bottom: 0;
- padding: 12px 24px;
+  padding: 12px 24px;
 }
 
 .interface-button:hover,
@@ -172,7 +185,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
- margin-top: 0;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -193,7 +206,6 @@ body {
 .footer {
   background-color: #2e2f42;
 }
-
 
 .footer-link {
   font-family: "Raleway", sans-serif;
@@ -232,11 +244,12 @@ body {
 
 /* main page  */
 
-/* herou */
+/* hero */
 
 .hero {
   background-color: #2e2f42;
   text-align: center;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -246,10 +259,11 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--brand-color);
+  color: #ffffff;
   margin-top: 0;
   margin-bottom: 48px;
   padding-top: 188px;
+  max-width: 496px;
 }
 
 .hero-button {
@@ -258,19 +272,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
-  background: #4d5ae5; 
+  color: #ffffff;
+  background: #4d5ae5;
   border-radius: 4px;
   padding: 16px 32px;
-  display: inline-block;
+  display: block;
   min-width: 169px;
-  text-align: center;
-  border: 1px solid transparent;
-  margin-bottom: 188px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
 }
 
-
- 
 .hero-button:hover,
 .hero-button:focus {
   color: var(--brand-color);
@@ -278,12 +290,26 @@ body {
   cursor: pointer;
 }
 
-
 /* strategy */
 
+.strategy-conteiner {
+  display: flex;
+}
+
+.services-images {
+  display: flex;
+  gap: 24px;
+}
+
+.list-conteiner {
+  width: calc((100% - 72px) / 4);
+}
 
 .strategy-list {
   padding-top: 120px;
+  display: flex; 
+  gap: 24px;
+ 
 }
 
 .strategy-title {
@@ -299,9 +325,9 @@ body {
 
 /* services */
 
+
 .services {
   padding-bottom: 120px;
- 
 }
 
 .services-title {
@@ -319,7 +345,7 @@ body {
 }
 
 .services-line {
-  background-color:var(--brand-color);
+  background-color: var(--brand-color);
 }
 
 /* team */
@@ -328,6 +354,13 @@ body {
   background-color: #f4f4fd;
   padding-bottom: 120px;
 }
+
+
+.team-list {
+  display: flex;
+  text-align: center;
+}
+
 
 .team-title {
   font-family: "Roboto", sans-serif;
@@ -341,7 +374,6 @@ body {
   margin-top: 0;
   margin-bottom: 72px;
   padding-top: 120px;
-
 }
 
 .image-title {
@@ -378,5 +410,5 @@ body {
 }
 
 :root {
-  --brand-color:#ffffff;
+  --brand-color: #ffffff;
 }
