@@ -22,6 +22,7 @@ body {
 .container-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .container {
@@ -39,6 +40,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .link {
@@ -64,6 +66,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--brand-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-link:hover,
@@ -81,10 +85,6 @@ body {
   display: flex;
   align-items: center;
   max-width: 261px;
-}
-
-.header-logo {
-  margin-right: 76px;
 }
 
 .header-list {
