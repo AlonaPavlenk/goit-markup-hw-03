@@ -19,7 +19,7 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.conteiner-nav {
+.container-nav {
   display: flex;
   align-items: center;
   padding: 24px 0;
@@ -29,8 +29,7 @@ body {
 .container {
   margin: 0 auto;
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px 0 15px;
 }
 
 .header-logo {
