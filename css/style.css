@@ -378,11 +378,6 @@ body {
   gap: 24px;
 }
 
-.list-container {
-  padding-top: 32px;
-  min-width: 232px;
-}
-
 .team-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -396,6 +391,11 @@ body {
   margin-bottom: 72px;
 }
 
+.title-container {
+  padding: 32px 16px;
+}
+
+
 .image-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -405,6 +405,7 @@ body {
   color: #2e2f42;
   margin-top: 32px;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .team-line {
