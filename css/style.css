@@ -67,8 +67,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 
 /* contacts */
@@ -95,7 +94,7 @@ body {
 }
 
 .header-link {
-  padding-top: 24px;
+  padding: 24px 0;
 }
 
 .header-adress {
@@ -306,7 +305,7 @@ body {
 /* strategy */
 
 .strategy {
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .strategy-container {
@@ -366,7 +365,7 @@ body {
 
 .team {
   background-color: #f4f4fd;
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .team-container {
